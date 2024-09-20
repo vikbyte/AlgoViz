@@ -1,0 +1,57 @@
+.banner {
+  display: flex;
+  gap: 100px;
+}
+
+.banner-item {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  align-content: center;
+  width: auto;
+}
+
+.banner-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.obstacle {
+  background-color: var(--color-primary);
+}
+.banner-name {
+  color: #fff; /* White text color */
+} 
+
+.path {
+  background-color: rgb(220, 220, 10);
+}
+
+/* .banner {
+  display: flex;
+  gap: 100px;
+  background-color: #000; /* Black background for the banner */
+  /* padding: 10px; /* Optional padding
+}
+   */
+
+/* .banner-item {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
+  align-content: center;
+  width: auto;
+}  */
+
+/* .banner-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.banner-name {
+  color: #fff; /* White text color */
+/* }  */
+
+/* .obstacle {
+  background-image: url("data:image/svg+xml,%3Csvg%20version%3D%221.1%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20xmlns%3Axlink%3D%22http%3A//www.w3.org/1999/xlink%22%20viewBox%3D%220%200%20600%20600%22%20enable-background%3D%22new%200%200%20600%20600%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23FFFEFE%22%20opacity%3D%221.000000%22%20stroke%3D%22none%22%20d%3D%22M1.000000%2C239.000000%20C1.000000%2C159.333344%201.000000%2C80.166695%201.000000%2C1.000032%20C200.999954%2C1.000021%20400.999908%2C1.000021%20600.999878%2C1.000011%20C600.999939%2C200.999924%20600.999939%2C400.999847%20601.000000%2C600.999817%20C401.000122%2C600.999878%20201.000244%2C600.999878%201.000182%2C600.999939%20C1.000000%2C480.500000%201.000000%2C360.000000%201.000000%2C239.000000%20M315.279388%2C28.174595%20C260.466980%2C25.537012%20209.072861%2C37.374931%20161.502777%2C64.899635%20C62.470142%2C122.201294%2012.115340%2C234.471451%2027.467577%2C342.286713%20C35.388199%2C397.911377%2058.509533%2C446.697693%2096.368500%2C488.237488%20C150.700760%2C547.852173%20219.603806%2C575.510925%20299.054565%2C578.713318%20C312.892334%2C579.271057%20326.969299%2C577.165955%20340.758362%2C575.104126%20C408.014038%2C565.047729%20464.167206%2C534.255737%20508.722290%2C482.936371%20C551.126465%2C434.094452%20572.522522%2C376.540833%20575.860474%2C312.385864%20C576.735413%2C295.569366%20574.834961%2C278.414307%20572.475464%2C261.658875%20C564.365601%2C204.070312%20539.217407%2C154.488251%20499.077148%2C112.695160%20C449.231171%2C60.796680%20388.042358%2C32.861935%20315.279388%2C28.174595%22/%3E%3C/svg%3E");
+}  */ 
